@@ -10,7 +10,7 @@ print("My name is Ciara")
 print("The date is 12.04.2023")
 
 
-# In[2]:
+# In[6]:
 
 
 # Write a program to analyse real estate data
@@ -21,22 +21,34 @@ c = 67000
 d = 34600
 e = 12900
 
-print(a+b+c+d+e)
+total_sales = a+b+c+d+e
+
+print(total_sales)
 
 
-# In[4]:
+# In[7]:
 
 
 # calculate the average sales price for the month 
-print((a+b+c+d+e)/5)
+average_sales = (a+b+c+d+e)/5
+print(average_sales)
 
 
-# In[5]:
+# In[9]:
 
 
-# find the missing value from the last column of the table
-f = 67000-6500
-print(f)
+# create a new variable
+# Calculate the price of property C as sales - commission
+property_price_c = (67000 - 6500)
+
+# View the output
+print(property_price_c)
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
